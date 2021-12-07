@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TddTrainingApi", "TddTrainingApi.csproj", "{9279BA64-FBC5-4EFE-BDE9-AF03AF7589EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "..\Factorial\Factorial.csproj", "{06C2BD8D-76DB-4287-8F1F-D48648E5665C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "..\Factorial\Factorial.csproj", "{06C2BD8D-76DB-4287-8F1F-D48648E5665C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "..\Fibonacci\Fibonacci.csproj", "{8BFF0A71-EFA0-424A-85AC-8B80999B24C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{06C2BD8D-76DB-4287-8F1F-D48648E5665C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C2BD8D-76DB-4287-8F1F-D48648E5665C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C2BD8D-76DB-4287-8F1F-D48648E5665C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFF0A71-EFA0-424A-85AC-8B80999B24C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFF0A71-EFA0-424A-85AC-8B80999B24C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFF0A71-EFA0-424A-85AC-8B80999B24C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFF0A71-EFA0-424A-85AC-8B80999B24C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
