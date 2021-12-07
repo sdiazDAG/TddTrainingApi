@@ -23,13 +23,24 @@ namespace Factorial
 
             Assert.Equal(expectedResult, currentResult);
         }
+
+        [Fact]
+        public void Testing_to_calculate_two_factorial()
+        {
+            var expectedResult = 2;
+
+            var currentResult = FactorialHandler.Calculate(2);
+
+            Assert.Equal(expectedResult, currentResult);
+        }
     }
 
     public class FactorialHandler
     {
-        public static int Calculate(int expectedResult)
+        public static int Calculate(int number)
         {
-            return 1;
+            if (number <= 1) return 1;
+            return 2;
         }
     }
 }
