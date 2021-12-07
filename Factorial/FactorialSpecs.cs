@@ -15,13 +15,4 @@ namespace Factorial
             Assert.Equal(expectedResult, currentResult);
         }
     }
-
-    public class FactorialHandler
-    {
-        public static int Calculate(int number)
-        {
-            if (number <= 1) return 1;
-            return 2;
-        }
-    }
 }
