@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Factorial\Factorial.csproj" />
+    <ProjectReference Include="..\Fibonacci\Fibonacci.csproj" />
   </ItemGroup>
 
 

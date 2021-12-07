@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TddTrainingApi.Controllers
 {
-    public class FactorialController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class FactorialController : ControllerBase
     {
-        [HttpPost("calculate/{number}")]
+        [HttpGet("calculate/{number}")]
         public long Calculate(int number)
         {
             try
