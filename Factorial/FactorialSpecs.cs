@@ -8,6 +8,7 @@ namespace Factorial
         [InlineData(1, 0)]
         [InlineData(1, 1)]
         [InlineData(2, 2)]
+        [InlineData(6, 3)]
         public void Testing_to_calculate_number_factorial(int expectedResult, int number)
         {
             var currentResult = FactorialHandler.Calculate(number);

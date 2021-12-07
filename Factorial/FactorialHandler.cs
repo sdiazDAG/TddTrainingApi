@@ -4,7 +4,7 @@ namespace Factorial
     {
         public static int Calculate(int number)
         {
-            return number <= 1 ? 1 : 2;
+            return number <= 1 ? 1 : number * Calculate(number - 1);
         }
     }
 }
