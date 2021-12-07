@@ -4,32 +4,13 @@ namespace Factorial
 {
     public class FactorialSpecs
     {
-        [Fact]
-        public void Testing_to_calculate_zero_factorial()
+        [Theory]
+        [InlineData(1, 0)]
+        [InlineData(1, 1)]
+        [InlineData(2, 2)]
+        public void Testing_to_calculate_number_factorial(int expectedResult, int number)
         {
-            var expectedResult = 1;
-
-            var currentResult = FactorialHandler.Calculate(0);
-
-            Assert.Equal(expectedResult, currentResult);
-        }
-
-        [Fact]
-        public void Testing_to_calculate_one_factorial()
-        {
-            var expectedResult = 1;
-
-            var currentResult = FactorialHandler.Calculate(1);
-
-            Assert.Equal(expectedResult, currentResult);
-        }
-
-        [Fact]
-        public void Testing_to_calculate_two_factorial()
-        {
-            var expectedResult = 2;
-
-            var currentResult = FactorialHandler.Calculate(2);
+            var currentResult = FactorialHandler.Calculate(number);
 
             Assert.Equal(expectedResult, currentResult);
         }
