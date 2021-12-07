@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Factorial;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,7 +13,7 @@ namespace TddTrainingApi.Controllers
         {
             try
             {
-                long result = FactorialHandler.Calculate(number);
+                var result = FactorialHandler.Calculate(number);
 
                 return result;
             }
