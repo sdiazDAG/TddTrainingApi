@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea/
+*DotSettings.user
+/TddTrainingApi/_ReSharper.Caches/ReSharperPlatformVs16212_51322ad3.TddTrainingApi.00
